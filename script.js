@@ -8,8 +8,6 @@ function applyAspectRatioStyles() {
     }
 }
 
-// Apply styles on load
 applyAspectRatioStyles();
 
-// Apply styles on resize
 window.addEventListener('resize', applyAspectRatioStyles);

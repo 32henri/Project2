@@ -1,16 +1,14 @@
 /* For landscape mode (width > height) */
 @media (min-aspect-ratio: 1/1) {
-    /* Styles for wider viewports (landscape) */
     body {
-        background-color: lightblue;
+        background-image: url("background-home-desktop.jpg");
     }
 }
 
 /* For portrait mode (height > width) */
 @media (max-aspect-ratio: 1/1) {
-    /* Styles for taller viewports (portrait) */
     body {
-        background-color: lightgreen;
+        background-image: url("background-home-mobile.jpg");
     }
 }
 
