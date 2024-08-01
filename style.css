@@ -1,0 +1,30 @@
+/* For landscape mode (width > height) */
+@media (min-aspect-ratio: 1/1) {
+    /* Styles for wider viewports (landscape) */
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* For portrait mode (height > width) */
+@media (max-aspect-ratio: 1/1) {
+    /* Styles for taller viewports (portrait) */
+    body {
+        background-color: lightgreen;
+    }
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s;
+}
+
+.landscape {
+    background-color: black;
+}
+
+.portrait {
+    background-color: lightgreen;
+}
