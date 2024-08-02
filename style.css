@@ -58,6 +58,8 @@ body {
     font-size: 20px;
     margin: 10px;
     padding: 14px 16px;
+    color: white;
+    font-family: Cervino Regular Neue;
 }
 
 .sub_navigation1 {
@@ -71,4 +73,27 @@ body {
     float: left;
     margin: 10px;
     padding: 14px 16px;
+    color: white;
+    font-family: Cervino Regular Neue;
 }
+@font-face { font-family: Cervino Regular Neue; src: url('Cervino-ThinNeue.woff'); }
+@font-face { font-family: Cyan-Capitals; src: url('Cyan-Capitals.otf'); }
+
+.home_paragraph {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-evenly;
+    left: 15%;
+    top: 45%;
+    width: 300px;
+    height: 200px;
+}
+
+p {
+    color: white;
+    font-family: Cervino Regular Neue;
+    font-size: 19px;
+    margin-top: 0;
+}
+
