@@ -75,6 +75,7 @@ body {
     padding: 14px 16px;
     color: white;
     font-family: Cervino Regular Neue;
+    backdrop-filter: blur(5px);
 }
 @font-face { font-family: Cervino Regular Neue; src: url('Cervino-ThinNeue.woff'); }
 @font-face { font-family: Cyan-Capitals; src: url('Cyan-Capitals.otf'); }
