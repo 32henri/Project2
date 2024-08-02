@@ -1,8 +1,18 @@
 /* For landscape mode (width > height) */
 @media (min-aspect-ratio: 1/1) {
-    body {
+    #home_body {
         background-image: url("background-home-desktop.jpg");
     }
+    #destination_body {
+        background-image: url("background-destination-desktop.jpg");
+    }
+    #crew_body {
+        background-image: url("background-crew-desktop.jpg");
+    }
+    #technology_body {
+        background-image: url("background-technology-desktop.jpg");
+    }
+
 }
 
 /* For portrait mode (height > width) */
