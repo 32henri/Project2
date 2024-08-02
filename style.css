@@ -2,15 +2,23 @@
 @media (min-aspect-ratio: 1/1) {
     #home_body {
         background-image: url("background-home-desktop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
     #destination_body {
         background-image: url("background-destination-desktop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
     #crew_body {
-        background-image: url("background-crew-desktop.jpg");
+        background-image: url("background-crew-desktop.jpg"); 
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
     #technology_body {
         background-image: url("background-technology-desktop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 
 }
@@ -27,6 +35,7 @@
 body {
     font-family: Arial, sans-serif;
     transition: background-color 0.5s;
+    display: flex;
 }
 
 .landscape {
@@ -35,4 +44,31 @@ body {
 
 .portrait {
     background-color: lightgreen;
+}
+
+.navigation {
+    position: absolute;
+    right: 10%;
+    overflow: hidden;
+
+}
+
+.navigation a{
+    float: left;
+    font-size: 20px;
+    margin: 10px;
+    padding: 14px 16px;
+}
+
+.sub_navigation1 {
+    position: absolute;
+    right: 20%;
+    bottom: 65%;
+    overflow: hidden;
+}
+
+.sub_navigation1 a{
+    float: left;
+    margin: 10px;
+    padding: 14px 16px;
 }
