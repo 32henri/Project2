@@ -50,7 +50,7 @@ body {
     position: absolute;
     right: 10%;
     overflow: hidden;
-    backdrop-filter: blur(10px);
+    top: 5%;
 }
 
 .navigation a{
@@ -97,3 +97,23 @@ p {
     margin-top: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+.decoration1 {
+    position: absolute;
+    top: 11%;
+    left: 16%;
+    width: 500px;
+    height: 2px;
+    background-color: gray;
+    opacity: 0.1;
+}
+.decoration2 {
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    width: 815px;
+    height: 85px;
+}
