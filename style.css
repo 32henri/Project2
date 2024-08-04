@@ -191,7 +191,6 @@
     .p1 {
         font-size: 24px;
         position: absolute;
-        left: 30%;
         top: 15%;
     }
 
@@ -200,11 +199,11 @@
         font-family: Cyan-Capitals;
         position: absolute;
         top: 20%;
-        left: 25%;
     }
 
     .p3 {
-        position: absolute;top: 40%;
+        position: absolute;
+        top: 40%;
         width: 75%;
         align-items: end;
     }
