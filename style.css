@@ -21,6 +21,77 @@
         background-size: 100%;
     }
 
+    .navigation {
+        position: absolute;
+        right: 10%;
+        overflow: hidden;
+        top: 5%;
+    }
+
+    .navigation a{
+        float: left;
+        font-size: 20px;
+        margin: 10px;
+        padding: 20px 26px;
+        color: white;
+        font-family: Cervino Regular Neue;
+    }
+    
+    .sub_navigation1 {
+        position: absolute;
+        right: 20%;
+        bottom: 65%;
+        overflow: hidden;
+    }
+    
+    .sub_navigation1 a{
+        float: left;
+        margin: 10px;
+        padding: 14px 16px;
+        color: white;
+        font-family: Cervino Regular Neue;
+    }
+
+    .home_paragraph {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: space-evenly;
+        left: 15%;
+        top: 45%;
+        width: 300px;
+        height: 200px;
+    }
+    
+    p {
+        color: white;
+        font-family: Cervino Regular Neue;
+        font-size: 19px;
+        margin-top: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .decoration1 {
+        position: absolute;
+        top: 11%;
+        left: 16%;
+        width: 500px;
+        height: 2px;
+        background-color: gray;
+        opacity: 0.1;
+    }
+    
+    .decoration2 {
+        position: absolute;
+        top: 5%;
+        right: 0%;
+        width: 815px;
+        height: 85px;
+    }
+
 }
 
 /* For portrait mode (height > width) */
@@ -46,74 +117,6 @@ body {
     background-color: lightgreen;
 }
 
-.navigation {
-    position: absolute;
-    right: 10%;
-    overflow: hidden;
-    top: 5%;
-}
-
-.navigation a{
-    float: left;
-    font-size: 20px;
-    margin: 10px;
-    padding: 20px 26px;
-    color: white;
-    font-family: Cervino Regular Neue;
-}
-
-.sub_navigation1 {
-    position: absolute;
-    right: 20%;
-    bottom: 65%;
-    overflow: hidden;
-}
-
-.sub_navigation1 a{
-    float: left;
-    margin: 10px;
-    padding: 14px 16px;
-    color: white;
-    font-family: Cervino Regular Neue;
-}
 @font-face { font-family: Cervino Regular Neue; src: url('Cervino-ThinNeue.woff'); }
 @font-face { font-family: Cyan-Capitals; src: url('Cyan-Capitals.otf'); }
 
-.home_paragraph {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    justify-content: space-evenly;
-    left: 15%;
-    top: 45%;
-    width: 300px;
-    height: 200px;
-}
-
-p {
-    color: white;
-    font-family: Cervino Regular Neue;
-    font-size: 19px;
-    margin-top: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-.decoration1 {
-    position: absolute;
-    top: 11%;
-    left: 16%;
-    width: 500px;
-    height: 2px;
-    background-color: gray;
-    opacity: 0.1;
-}
-.decoration2 {
-    position: absolute;
-    top: 5%;
-    right: 0%;
-    width: 815px;
-    height: 85px;
-}
