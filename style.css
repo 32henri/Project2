@@ -237,14 +237,6 @@ body {
     display: flex;
 }
 
-.landscape {
-    background-color: black;
-}
-
-.portrait {
-    background-color: lightgreen;
-}
-
 @font-face { font-family: Cervino Regular Neue; src: url('Cervino-ThinNeue.woff'); }
 @font-face { font-family: Cyan-Capitals; src: url('Cyan-Capitals.otf'); }
 
