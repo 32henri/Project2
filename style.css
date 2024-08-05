@@ -106,18 +106,18 @@
         left: 8%
     }
 
-    .p1 {
+    .homep1 {
         font-size: 24px;
         position: absolute;
         top: -10%;
     }
 
-    .p2 {
+    .homep2 {
         font-size: 80px;
         font-family: Cyan-Capitals;
     }
 
-    .p3 {
+    .homep3 {
         position: absolute;top: 60%;
     }
 
@@ -140,8 +140,69 @@
 
     .destination_image {
         position: absolute;
-        top: 35%;
+        top: 40%;
         left: 25%;
+    }
+
+    .destination_info {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 49%;
+        right: 5%;
+        width: 30%;
+    }
+
+    .destination_decoration {
+        position: absolute;
+        top: 70%;
+        right: 10%;
+        width: 25%;
+        height: 0.3%;
+        background-color: gray;
+        opacity: 0.3;
+    }
+
+    .destination_distance {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 75%;
+        right: 20%;
+    }
+
+    .destinationp1 {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        text-transform: uppercase;
+        font-size: 150%;
+    }
+
+    .destinationp2 {
+        position: absolute;
+        top: 37%;
+        right: 22%;
+        font-size: 400%;
+        font-family: Cyan-Capitals;
+    }
+
+    .destinationp3 {
+        position: absolute;
+        top: 50%;
+        right: 20%;
+    }
+
+    .destinationp4 {
+        
+    }
+
+    .destinationp5 {
+        font-family: Cyan-Capitals;
     }
 
 }
@@ -227,14 +288,14 @@
         text-decoration: none;
     }
 
-    .p1 {
+    .homep1 {
         font-size: 125%;
         position: fixed;
         top: 15%;
         right: 28%;
     }
 
-    .p2 {
+    .homep2 {
         font-size: 450%;
         font-family: Cyan-Capitals;
         position: fixed;
@@ -242,7 +303,7 @@
         top: 20%;
     }
 
-    .p3 {
+    .homep3 {
         top: 40%;
         width: 75%;
         position: absolute;
@@ -262,7 +323,8 @@
     }
 
     .circle_text {
-        font-size: 25px; font-family: Cyan-Capitals;
+        font-size: 25px;
+        font-family: Cyan-Capitals;
     }
 
     .menu-btn {
@@ -324,6 +386,26 @@
         left: 20%;
     }
 
+    .destinationp1 {
+        position: absolute;
+        top: 30%;
+    }
+
+    .destinationp2 {
+        
+    }
+
+    .destinationp3 {
+        
+    }
+
+    .destinationp4 {
+        
+    }
+
+    .destinationp5 {
+        
+    }
 }
 
 
