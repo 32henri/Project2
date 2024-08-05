@@ -138,17 +138,44 @@
         font-size: 25px; font-family: Cyan-Capitals;
     }
 
+    .destination_image {
+        position: absolute;
+        top: 35%;
+        left: 25%;
+    }
 
 }
 
 /* For portrait mode (height > width) */
 @media (max-aspect-ratio: 1/1) {
-    body {
+    #home_body {
         background-image: url("background-home-mobile.jpg");
         background-size: 130%;
         background-repeat: no-repeat;
         background-position-y: 0%;
     }
+
+    #destination_body {
+        background-image: url("background-destination-mobile.jpg");
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position-y: 0%;
+    }
+
+    #crew_body {
+        background-image: url("background-crew-mobile.jpg");
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position-y: 0%;
+    }
+
+    #technology_body {
+        background-image: url("background-technology-mobile.jpg");
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position-y: 0%;
+    }
+
 
     .navigation {
         color: transparent;
@@ -168,8 +195,9 @@
     .sub_navigation1 {
         position: absolute;
         right: 20%;
-        bottom: 65%;
+        bottom: 50%;
         overflow: hidden;
+        display: flex;
     }
     
     .sub_navigation1 a{
@@ -197,12 +225,6 @@
     
     a {
         text-decoration: none;
-    }
-
-    .logo {
-        width: 10%;
-        height: 10%;
-        position: center center;
     }
 
     .p1 {
@@ -292,6 +314,14 @@
     
     .pc00 {
         color: transparent;
+    }
+
+    .destination_image {
+        width: 16em;
+        height: 16em;
+        position: absolute;
+        top: 17%;
+        left: 20%;
     }
 
 }
