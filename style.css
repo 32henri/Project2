@@ -21,6 +21,14 @@
         background-size: 100%;
     }
 
+    .menu-btn {
+        background-color: transparent;
+        color: transparent;
+        border: none;
+        position: absolute;
+        top: -10%;
+    }
+
     .navigation {
         position: absolute;
         right: 10%;
@@ -130,6 +138,7 @@
         font-size: 25px; font-family: Cyan-Capitals;
     }
 
+
 }
 
 /* For portrait mode (height > width) */
@@ -144,13 +153,14 @@
     .navigation {
         color: transparent;
         position: absolute;
-        top: -20%;
+        right: 5%;
+        top: 1%;
         width: 10%;
         height: 10%;
     }
 
     .navigation a{
-        color: transparent;
+        color: white;
         width: 10%;
         height: 10%;
     }
@@ -233,6 +243,56 @@
         font-size: 25px; font-family: Cyan-Capitals;
     }
 
+    .menu-btn {
+        background-color: transparent;
+        color: white;
+        padding: 16px;
+        font-weight: bolder;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        border: none;
+    }
+    
+    .dropdown-menu {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .menu-content {
+        display: none;
+        position: absolute;
+        right: 10%;
+        background-color: transparent;
+        min-width: 40%;
+    }
+    
+    .links,
+    .links-hidden {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        padding: 8px 12px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .links-hidden {
+        display: block;
+    }
+    .links {
+        display: inline-block;
+    }
+    
+    .links-hidden:hover,
+    .links:hover {
+        transform: scale(1.2);
+      
+    }
+    
+    .dropdown-menu:hover .menu-content {
+        display: block;
+    }
+    
+    .pc00 {
+        color: transparent;
+    }
 
 }
 
@@ -246,4 +306,6 @@ body {
 
 @font-face { font-family: Cervino Regular Neue; src: url('Cervino-ThinNeue.woff'); }
 @font-face { font-family: Cyan-Capitals; src: url('Cyan-Capitals.otf'); }
+
+
 
