@@ -136,8 +136,9 @@
 @media (max-aspect-ratio: 1/1) {
     body {
         background-image: url("background-home-mobile.jpg");
-        background-size: cover;
+        background-size: 130%;
         background-repeat: no-repeat;
+        background-position-y: 0%;
     }
 
     .navigation {
@@ -163,7 +164,7 @@
     
     .sub_navigation1 a{
         float: left;
-        margin: 10px;
+        margin: 1%;
         padding: 14px 16px;
         color: white;
         font-family: Cervino Regular Neue;
@@ -172,7 +173,6 @@
     .home_paragraph {
         display: flex;
         flex-direction: column;
-
         text-align: center;
         margin: 0;
         padding: 0;
@@ -181,7 +181,7 @@
     p {
         color: white;
         font-family: Cervino Regular Neue;
-        font-size: 19px;
+        font-size: 1.3Em;
         margin-top: 0;
     }
     
@@ -196,7 +196,7 @@
     }
 
     .p1 {
-        font-size: 24px;
+        font-size: 125%;
         position: fixed;
         top: 15%;
         left: 25%;
@@ -204,7 +204,7 @@
     }
 
     .p2 {
-        font-size: 85px;
+        font-size: 450%;
         font-family: Cyan-Capitals;
         position: fixed;
         left: 25%;
@@ -220,8 +220,8 @@
 
     .circle {
         background-color: aliceblue;
-        height: 150px;
-        width: 150px;
+        height: 9em;
+        width: 9em;
         border-radius: 50%;
         position: fixed;
         left: 35%;
