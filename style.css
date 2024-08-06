@@ -21,6 +21,10 @@
         background-size: 100%;
     }
 
+    #active_page {
+        text-decoration: underline;
+    }
+
     .menu-btn {
         background-color: transparent;
         color: transparent;
@@ -189,7 +193,31 @@
     .destinationp2 {
         position: absolute;
         top: 37%;
-        right: 20%;
+        right: 20.5%;
+        font-size: 430%;
+        font-family: Cyan-Capitals;
+    }
+
+    .destinationp2_mars {
+        position: absolute;
+        top: 37%;
+        right: 23.5%;
+        font-size: 430%;
+        font-family: Cyan-Capitals;
+    }
+
+    .destinationp2_titan {
+        position: absolute;
+        top: 37%;
+        right: 23%;
+        font-size: 430%;
+        font-family: Cyan-Capitals;
+    }
+
+    .destinationp2_europa {
+        position: absolute;
+        top: 37%;
+        right: 19.5%;
         font-size: 430%;
         font-family: Cyan-Capitals;
     }
@@ -532,8 +560,7 @@
             background-repeat: no-repeat;
             background-position-y: 0%;
         }
-    
-    
+        
         .navigation {
             color: transparent;
             position: absolute;
@@ -552,7 +579,7 @@
         .sub_navigation1 {
             position: absolute;
             right: 20%;
-            bottom: 45%;
+            bottom: 48%;
             display: flex;
         }
         
@@ -779,7 +806,9 @@
     }
 
 }
-
+.active_page {
+    text-decoration: underline;
+}
 
 
 body {
