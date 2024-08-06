@@ -212,6 +212,17 @@
         white-space:pre;
     }
 
+    .destinationp4_phone {
+        color: transparent;
+        font-size: 0%;
+
+    }
+
+    .destinationp5_phone {
+        color: transparent;
+        font-size: 0%;
+    }
+
 }
 
 /* For portrait mode (height > width) */
@@ -264,7 +275,6 @@
         position: absolute;
         right: 20%;
         bottom: 50%;
-        overflow: hidden;
         display: flex;
     }
     
@@ -394,26 +404,101 @@
         left: 20%;
     }
 
+    .destination_info {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: space-evenly;
+        position: absolute;
+        text-align: center;
+        top: 59%;
+        right: 10%;
+        width: 80%;
+    }
+
+    .destination_decoration {
+        position: absolute;
+        top: 77%;
+        right: 8%;
+        width: 85%;
+        height: 0.3%;
+        background-color: gray;
+        opacity: 0.3;
+    }
+
+    .destination_distance {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 71%;
+        right: 20%;
+    }
+
     .destinationp1 {
         position: absolute;
-        top: 30%;
+        top: 12%;
+        left: 30%;
+        letter-spacing: 0.5px;
     }
 
     .destinationp2 {
-        
+        font-family: Cyan-Capitals;
+        position: absolute;
+        top: 50%;
+        left: 22%;
+        font-size: 380%;
+    }
+
+    .destinationp2_mars {
+        font-family: Cyan-Capitals;
+        position: absolute;
+        top: 50%;
+        left: 26%;
+        font-size: 380%;
+    }
+
+    .destinationp2_titan {
+        font-family: Cyan-Capitals;
+        position: absolute;
+        top: 50%;
+        left: 28%;
+        font-size: 380%;
+    }
+
+    .destinationp2_europa {
+        font-family: Cyan-Capitals;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        font-size: 380%;
     }
 
     .destinationp3 {
+        letter-spacing: 0.5px;
         
     }
 
     .destinationp4 {
-        
+        color: transparent;
     }
 
     .destinationp5 {
-        
+        color: transparent;
     }
+
+    .destinationp4_phone {
+        word-spacing: 1px;
+        letter-spacing: 0.5px;
+        white-space:pre;
+    }
+
+    .destinationp5_phone {
+        font-family: Cyan-Capitals;
+        white-space: pre;
+    }
+
 }
 
 
