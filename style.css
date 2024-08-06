@@ -274,7 +274,7 @@
     .sub_navigation1 {
         position: absolute;
         right: 20%;
-        bottom: 50%;
+        bottom: 45%;
         display: flex;
     }
     
@@ -411,14 +411,14 @@
         justify-content: space-evenly;
         position: absolute;
         text-align: center;
-        top: 59%;
+        top: 61%;
         right: 10%;
         width: 80%;
     }
 
     .destination_decoration {
         position: absolute;
-        top: 77%;
+        top: 83%;
         right: 8%;
         width: 85%;
         height: 0.3%;
@@ -432,7 +432,7 @@
         position: absolute;
         justify-content: space-evenly;
         position: absolute;
-        top: 71%;
+        top: 77%;
         right: 20%;
     }
 
@@ -446,7 +446,7 @@
     .destinationp2 {
         font-family: Cyan-Capitals;
         position: absolute;
-        top: 50%;
+        top: 53%;
         left: 22%;
         font-size: 380%;
     }
