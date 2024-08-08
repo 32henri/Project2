@@ -998,6 +998,42 @@
             right: 17%;
     
         }
+
+        .image_decoration1 {
+            width: 85%;
+            height: 1px;
+            background-color: gray;
+            opacity: 0.3;
+            position: absolute;
+            top: 44.7%;
+        }
+
+        .image_decoration2 {
+            width: 85%;
+            height: 1px;
+            background-color: gray;
+            opacity: 0.3;
+            position: absolute;
+            top: 44.9%;
+        }
+
+        .image_decoration3 {
+            width: 85%;
+            height: 1px;
+            background-color: gray;
+            opacity: 0.3;
+            position: absolute;
+            top: 44.9%;
+        }
+
+        .image_decoration4 {
+            width: 85%;
+            height: 1px;
+            background-color: gray;
+            opacity: 0.3;
+            position: absolute;
+            top: 44.7%;
+        }
     
         .crew_navigation {
             position: absolute;
