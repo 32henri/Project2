@@ -353,7 +353,7 @@
         font-weight: bolder;
     }
 
-    .crewp2_1, .crewp2_2, .crewp2_3, .crewp2_4{
+    .crewp2_1{
         position: absolute;
         left: 15%;
         top: 39%;
@@ -364,7 +364,67 @@
         font-family: Cyan-Capitals;
     }
 
-    .crewp3_1, .crewp3_2, .crewp3_3, .crewp3_4 {
+    .crewp2_2{
+        position: absolute;
+        left: 15%;
+        top: 39%;
+        font-size: 230%;
+        color: gray;
+        opacity: 0.8;
+        font-weight:bolder;
+        font-family: Cyan-Capitals;
+    }
+
+    .crewp2_3{
+        position: absolute;
+        left: 15%;
+        top: 39%;
+        font-size: 230%;
+        color: gray;
+        opacity: 0.8;
+        font-weight:bolder;
+        font-family: Cyan-Capitals;
+    }
+
+    .crewp2_4{
+        position: absolute;
+        left: 15%;
+        top: 39%;
+        font-size: 230%;
+        color: gray;
+        opacity: 0.8;
+        font-weight:bolder;
+        font-family: Cyan-Capitals;
+    }
+
+    .crewp3_1 {
+        position: absolute;
+        left: 15%;
+        top: 47%;
+        letter-spacing: 0.5px;
+        font-size: 350%;
+        font-family: Cyan-Capitals;
+    }
+
+    .crewp3_2 {
+        position: absolute;
+        left: 15%;
+        top: 47%;
+        letter-spacing: 0.5px;
+        font-size: 350%;
+        font-family: Cyan-Capitals;
+    }
+
+    .crewp3_3 {
+        position: absolute;
+        left: 15%;
+        top: 47%;
+        letter-spacing: 0.5px;
+        font-size: 350%;
+        font-family: Cyan-Capitals;
+    }
+
+    .crewp3_4 {
         position: absolute;
         left: 15%;
         top: 47%;
