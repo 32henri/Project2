@@ -834,7 +834,7 @@
     
         .crewp3_1 {
             position: absolute;
-            left: 12%;
+            left: 15%;
             top: 64%;
             letter-spacing: 0.5px;
             font-size: 200%;
@@ -843,7 +843,7 @@
 
         .crewp3_2 {
             position: absolute;
-            left: 2%;
+            left: 4%;
             top: 64%;
             letter-spacing: 0.5px;
             font-size: 170%;
@@ -853,7 +853,7 @@
 
         .crewp3_3 {
             position: absolute;
-            left: 5%;
+            left: 7%;
             top: 64%;
             letter-spacing: 0.5px;
             font-size: 200%;
@@ -862,10 +862,10 @@
 
         .crewp3_4 {
             position: absolute;
-            left: 1%;
+            left: 4%;
             top: 64%;
             letter-spacing: 0.5px;
-            font-size: 200%;
+            font-size: 190%;
             font-family: Cyan-Capitals;
         }
     
