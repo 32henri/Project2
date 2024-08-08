@@ -11,4 +11,3 @@ function applyAspectRatioStyles() {
 applyAspectRatioStyles();
 
 window.addEventListener('resize', applyAspectRatioStyles);
-

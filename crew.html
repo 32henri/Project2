@@ -6,26 +6,86 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Crew</title>
-    
 </head>
 <body id="crew_body">
-    <div class="decoration2" style="background-color: gray; opacity: 0.2;"></div>
-    <div class="decoration2" style="backdrop-filter: blur(10px);"></div>
-    <nav class="navigation">
-        <div class="dropdown-menu">
-           <button class="menu-btn">[=]
-               <i class="fa fa-caret-down"></i>
-           </button>
-           <div class="menu-content">
-               <a class="links-hidden" href="index.html"><b class="pc00">00 </b>Home</a>
-               <a class="links-hidden" href="destination.html"><b class="pc00">01 </b>Destination</a>
-               <a class="links-hidden" href="crew.html" id="active_page"><b class="pc00">02 </b>Crew</a>
-               <a class="links-hidden" href="technology.html"><b class="pc00">03 </b>Technology</a>
-           </div>
+    <div class="container">
+        <div class="slides slide1">
+            <div class="crew_navigation">
+                <div class="crew_current"></div>
+                <div class="crew_not"></div>                         
+                <div class="crew_not"></div>                         
+                <div class="crew_not"></div>                         
+            </div>
+            <img src="image-victor-glover.png" class="crew_image">
+            <p class="crewp1">02 Meet your crew</p>
+            <p class="crewp2">Pilot</p>
+            <p class="crewp3">Victor Glover</p>
+            <div class="crew_info">
+                <p class="crewp4">Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.</p>
+            </div>
         </div>
-    </nav>
-    <div class="decoration1"></div>
-    <image src="logo.svg" class="logo"></image>
-    
+        <div class="slides slide2">
+            <div class="crew_navigation">
+                <div class="crew_not"></div>
+                <div class="crew_current"></div>                         
+                <div class="crew_not"></div>                         
+                <div class="crew_not"></div>                         
+            </div>
+            <img src="image-mark-shuttleworth.png" class="crew_image">
+            <p class="crewp1">02 Meet your crew</p>
+            <p class="crewp2">Mission Specialist</p>
+            <p class="crewp3">Mark Shuttleworth</p>
+            <div class="crew_info">
+                <p class="crewp4">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
+            </div>
+        </div>
+        <div class="slides slide3">
+            <div class="crew_navigation">
+                <div class="crew_not"></div>
+                <div class="crew_not"></div>                         
+                <div class="crew_current"></div>                         
+                <div class="crew_not"></div>                         
+            </div>
+            <img src="image-douglas-hurley.png" class="crew_image">
+            <p class="crewp1">02 Meet your crew</p>
+            <p class="crewp2">Commander </p>
+            <p class="crewp3">Douglas Hurley</p>
+            <div class="crew_info">
+                <p class="crewp4">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+            </div>
+        </div>
+        <div class="slides slide4">
+            <div class="decoration2" style="background-color: gray; opacity: 0.2; position: fixed; right: 0.88%;"></div>
+            <div class="decoration2" style="backdrop-filter: blur(10px); position: fixed; right: 0.88%;"></div>
+            <nav class="navigation" style="position: fixed;">
+                <div class="dropdown-menu">
+                   <button class="menu-btn">[=]
+                       <i class="fa fa-caret-down"></i>
+                   </button>
+                   <div class="menu-content">
+                       <a class="links-hidden" href="index.html"><b class="pc00">00 </b>Home</a>
+                       <a class="links-hidden" href="destination.html"><b class="pc00">01 </b>Destination</a>
+                       <a class="links-hidden" href="crew.html" id="active_page"><b class="pc00">02 </b>Crew</a>
+                       <a class="links-hidden" href="technology.html"><b class="pc00">03 </b>Technology</a>
+                   </div>
+                </div>
+            </nav>
+            <div class="crew_navigation">
+                <div class="crew_not"></div>
+                <div class="crew_not"></div>                         
+                <div class="crew_not"></div>                         
+                <div class="crew_current"></div>                         
+            </div>
+            <img src="image-anousheh-ansari.png" class="crew_image">
+            <p class="crewp1">02 Meet your crew</p>
+            <p class="crewp2">Flight Engineer</p>
+            <p class="crewp3">Anousheh Ansari</p>
+            <div class="crew_info">
+                <p class="crewp4">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</p>
+            </div>
+            <div class="decoration1" style="position: fixed;"></div>
+            <img src="logo.svg" class="logo" style="position: fixed;">
+        </div>
+    </div>
 </body>
 </html>
