@@ -17,11 +17,16 @@
         margin: 0;
         padding: 0;
         height: 100vh;
+        scroll-behavior: smooth !important;
     }
     #technology_body {
         background-image: url("background-technology-desktop.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        scroll-behavior: smooth !important;
     }
 
     #active_page {
@@ -83,7 +88,7 @@
         font-family: Cervino Regular Neue;
         font-size: 19px;
         margin-top: 0;
-        
+        font-weight: bolder;
     }
     
     a {
@@ -125,10 +130,14 @@
     .homep2 {
         font-size: 90px;
         font-family: Cyan-Capitals;
+        font-weight: normal;
+
     }
 
     .homep3 {
-        position: absolute;top: 60%;
+        position: absolute;
+        top: 60%;
+        opacity: 0.7;
     }
 
     .circle {
@@ -201,6 +210,7 @@
         right: 20.5%;
         font-size: 430%;
         font-family: Cyan-Capitals;
+        font-weight: normal;
     }
 
     .destinationp2_mars {
@@ -209,6 +219,7 @@
         right: 23.5%;
         font-size: 430%;
         font-family: Cyan-Capitals;
+        font-weight: normal;
     }
 
     .destinationp2_titan {
@@ -217,6 +228,7 @@
         right: 23%;
         font-size: 430%;
         font-family: Cyan-Capitals;
+        font-weight: normal;
     }
 
     .destinationp2_europa {
@@ -225,6 +237,7 @@
         right: 19.5%;
         font-size: 430%;
         font-family: Cyan-Capitals;
+        font-weight: normal;
     }
 
     .destinationp3 {
@@ -232,6 +245,7 @@
         top: 50%;
         right: 20%;
         word-spacing: 2px;
+        opacity: 0.7;
     }
 
     .destinationp4 {
@@ -438,7 +452,195 @@
         font-weight: bolder;
         color: white;
         letter-spacing: 0.3px;
-        opacity: 0.8;
+        opacity: 0.7;
+    }
+
+    .technology_p1_1 {
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        font-weight: bolder;
+        font-size: 180%;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
+
+    .technology_p1_2 {
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        font-weight: bolder;
+        font-size: 180%;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
+
+    .technology_p1_3 {
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        font-weight: bolder;
+        font-size: 180%;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
+
+    .technology_p2_1 {
+        position: absolute;
+        top: 45%;
+        left: 24%;
+        font-weight: bolder;
+        font-size: 110%;
+        opacity: 0.6;
+        letter-spacing: 1px;
+        font-variant: small-caps;
+    }
+
+    .technology_p2_2 {
+        position: absolute;
+        top: 45%;
+        left: 24%;
+        font-weight: bolder;
+        font-size: 110%;
+        opacity: 0.6;
+        letter-spacing: 1px;
+        font-variant: small-caps;
+    }
+
+    .technology_p2_3 {
+        position: absolute;
+        top: 45%;
+        left: 24%;
+        font-weight: bolder;
+        font-size: 110%;
+        opacity: 0.6;
+        letter-spacing: 1px;
+        font-variant: small-caps;
+    }
+
+    .technology_p3_1 {
+        position: absolute;
+        top: 49%;
+        left: 25%;
+        font-family: Cyan-Capitals;
+        font-size: 400%;
+        font-weight: normal;
+
+    }
+
+    .technology_p3_2 {
+        position: absolute;
+        top: 49%;
+        left: 25%;
+        font-family: Cyan-Capitals;
+        font-size: 400%;
+        font-weight: normal;
+
+    }
+
+    .technology_p3_3 {
+        position: absolute;
+        top: 49%;
+        left: 25%;
+        font-family: Cyan-Capitals;
+        font-size: 400%;
+        font-weight: normal;
+    }
+
+    .technology_info {
+        width: 25%;
+        position: absolute;
+        top: 59%;
+        left: 25%;
+        display: flex;
+        text-align: start;
+    }
+
+    .technology_p4_1 {
+        letter-spacing: 0.4px;
+        word-spacing: 2px;
+        opacity: 0.7;
+    }
+
+    .technology_p4_2 {
+        letter-spacing: 0.4px;
+        word-spacing: 2px;
+        opacity: 0.7;
+    }
+
+    .technology_p4_3 {
+        letter-spacing: 0.4px;
+        word-spacing: 2px;
+        opacity: 0.7;
+    }
+
+    .technology_image_1 {
+        height: 55%;
+        width: 25%;
+        position: absolute;
+        top: 30%;
+        right: 0%;
+        background-image: url(image-launch-vehicle-portrait.jpg);
+    }
+
+    .technology_image_2 {
+        height: 55%;
+        width: 25%;
+        position: absolute;
+        top: 30%;
+        right: 0%;
+        background-image: url(image-spaceport-portrait.jpg);
+    }
+
+    .technology_image_3 {
+        height: 55%;
+        width: 25%;
+        position: absolute;
+        top: 30%;
+        right: 0%;
+        background-image: url(image-space-capsule-portrait.jpg);
+    }
+
+    .technology_navigation {
+        background-color: transparent;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        height: 37%;
+        top: 40%;
+        left: 14%;
+        justify-content: space-between;
+    }
+
+    .technology_current {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        background-color: white;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: Cyan-Capitals;
+        font-size: 300%;
+    }
+
+    .technology_not {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: gray;
+        color: white;
+        font-family: Cyan-Capitals;
+        border-style: solid;
+        border-width: 1px;
+        font-size: 300%;
+        background-color: transparent;
+        border-radius: 50%;
+        
     }
 
 
@@ -1438,6 +1640,7 @@ body {
     font-family: Arial, sans-serif;
     transition: background-color 0.5s;
     display: flex;
+    scroll-behavior: smooth !important;
 }
 
 @font-face { font-family: Cervino Regular Neue; src: url('Cervino-ThinNeue.woff'); }
