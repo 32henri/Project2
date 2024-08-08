@@ -299,7 +299,7 @@
         height: 100vh;
     }
 
-    .crew_image {
+    .crew_image, .crew_image_2, .crew_image_3, .crew_image_4 {
         position: absolute;
         max-width: 80%;
         bottom: 0%;
@@ -326,12 +326,10 @@
 
     }
     .crew_not {
-        background-color: transparent;
+        background-color: gray;
         width: 20px;
         height: 20px;
         border-radius: 15px;
-        border-style: solid;
-        border-color: white;
 
     }
 
@@ -355,7 +353,7 @@
         font-weight: bolder;
     }
 
-    .crewp2 {
+    .crewp2_1, .crewp2_2, .crewp2_3, .crewp2_4{
         position: absolute;
         left: 15%;
         top: 39%;
@@ -366,7 +364,7 @@
         font-family: Cyan-Capitals;
     }
 
-    .crewp3 {
+    .crewp3_1, .crewp3_2, .crewp3_3, .crewp3_4 {
         position: absolute;
         left: 15%;
         top: 47%;
@@ -1368,15 +1366,6 @@
             opacity: 0.8;
         }
 
-        .crewp4_mark {
-            word-spacing: 1.5px;
-            font-weight: bolder;
-            color: white;
-            letter-spacing: 0.3px;
-            opacity: 0.8;
-            position: absolute;
-            top: 10%;
-        }
     }
 
 }
