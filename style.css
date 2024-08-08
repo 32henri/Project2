@@ -1711,41 +1711,6 @@
     
         }
 
-        .image_decoration1 {
-            width: 85%;
-            height: 1.5px;
-            background-color: gray;
-            opacity: 0.3;
-            position: absolute;
-            top: 52.6%;
-        }
-
-        .image_decoration2 {
-            width: 85%;
-            height: 1.5px;
-            background-color: gray;
-            opacity: 0.3;
-            position: absolute;
-            top: 52.3%;
-        }
-
-        .image_decoration3 {
-            width: 85%;
-            height: 1.5px;
-            background-color: gray;
-            opacity: 0.3;
-            position: absolute;
-            top: 53.1%;
-        }
-
-        .image_decoration4 {
-            width: 85%;
-            height: 1.5px;
-            background-color: gray;
-            opacity: 0.3;
-            position: absolute;
-            top: 52.5%;
-        }
     
         .crew_navigation {
             position: absolute;
